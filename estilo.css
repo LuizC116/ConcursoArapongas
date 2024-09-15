@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+body {
+    background-image:  url("https://www.arapongas.pr.gov.br/thumb.php?img=imagens/noticias/995f9be060cd6cf59d58be58092aa6fc.jpg&w=&h=");
+    background-size: cover;
+}
+.caixa-summary {
+    font-weight: 400;
+    background-color: rgb(43, 87, 198);
+    font-size: 15px;
+    width: 60%;
+    min-width: 230px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.cabecalho-summary {
+    font-weight: 600;
+    background-color: rgb(50, 117, 216);
+    padding: 12px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.resposta-summary {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    text-indent: 10px;
+}
+.div-pergunta {
+    background-color: rgba(255, 255, 255, 0.953);
+    backdrop-filter: blur(10px);
+    border-radius: 12px 0px 0px 12px;
+}
+.div-pergunta p {
+    padding: 10px;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
+.div-pergunta h1 {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600;
+    width: 90%;
+    margin: 4px;
+}
+.div-pergunta h2 {
+    text-align: left;
+    font-weight: 500;
+    margin: 4px;
+    width: 90%;
+    padding-left: 20px;
+}
+.div-fundo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0px; left: 0px;
+    background-color: rgba(48, 50, 50, 0.648);
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.div-cabecalho {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.869);
+    border-radius: 10px;
+    width: 97%;
+    height: 160px;
+    overflow-y: scroll;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.202));
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-header {
+    background-color: white;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.202));
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.div-footer {
+    background-color: white;
+    filter: drop-shadow(0px -3px 3px rgba(0, 0, 0, 0.202));
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+    border-top: 2px rgb(153, 153, 153);
+    border-style: solid;
+}
+.div-footer p {
+    margin-left: 20px;
+}
+.brasao-img {
+    width: 216px;
+    height: 60px;
+    padding: 5px;
+}
+.div-overflow {
+    overflow-y: scroll;
+    height: 50vh;
+}
+.pergunta-img {
+    object-fit: cover;
+    z-index: 2;
+    width: 50%;
+    border-radius: 0px 12px 12px 0px;
+}
+.div-flex {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    max-width: 800px;
+    filter: drop-shadow(4px 4px 9px rgba(0, 0, 0, 0.699));
+    overflow: hidden;
+}
+.diferente {
+    background-color: rgb(255, 52, 52);
+    box-shadow: 3px 3px 0px rgb(73, 105, 143); 
+    border-radius: 10px;
+}
