@@ -9,4 +9,4 @@ Bacharel em Sistemas de Informação
 ## Ambiente de Desenvolvimento
 [VSCode](https://code.visualstudio.com/)
   
-*Este exercício não possui nenhuma associação com a prefeitura de Arapongas, Paraná.
+* Este exercício não possui nenhuma associação com a prefeitura de Arapongas, Paraná.
